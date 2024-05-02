@@ -1,0 +1,171 @@
+table {
+  width: 780px;
+  height: auto;
+  margin: auto;
+}
+
+tr td {
+  width: 30px;
+  padding-bottom: 5px;
+  width: 100px;
+  text-indent: 30px;
+  height: 40px;
+}
+
+tr.tieude_themsp td {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: none;
+  border-bottom: 3px solid black;
+}
+
+td.img_hienthi_sp input {
+  padding-left: 30px;
+}
+
+tr td.input {
+  padding-left: 100px;
+}
+
+tr td.input input:hover {
+  background: white;
+  color: blue;
+  border-color: blue;
+}
+
+.formthemsanpham {
+  width: 800px;
+  margin: auto;
+}
+
+table input {
+  padding: 2px;
+}
+
+table thead th {
+  padding: 3px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.cke_1.cke_chrome {
+  border-color: rgb(188, 188, 188);
+  width: 630px;
+}
+
+.add__sp {
+  border: 1px solid #eaeaea;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 20px hsl(0, 0%, 80%);
+  padding: 2rem;
+}
+
+.contentdm {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 20px hsl(0, 0%, 80%);
+  padding: 2rem;
+}
+
+.tieude_themsp {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: none;
+  border-bottom: 3px solid black;
+  margin-bottom: 15px;
+}
+/* them nguoi dung */
+.tabs {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid black;
+}
+
+.tabs div {
+  padding: 6px 50px;
+  display: inline-block;
+  width: 100%;
+  font-size: 21px;
+}
+
+.dangky {
+  width: 850px;
+  height: auto;
+  border: 1px solid #eaeaea;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 20px hsl(0, 0%, 80%);
+  padding: 2rem;
+  margin: auto;
+}
+
+.dangky h2 {
+  background: #9e9f9d;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 16px;
+  height: 30px;
+  color: white;
+  margin-top: -22px;
+  text-transform: uppercase;
+}
+
+.dangky table {
+  width: 700px;
+}
+
+.dangky tr {
+  height: 48px;
+  font-size: 13px;
+}
+
+.dangky tr td {
+  text-align: right;
+}
+
+.dangky tr td textarea {
+  width: 270px;
+  height: 100px;
+}
+
+.dangky tr td.btndangky {
+  text-align: center;
+}
+
+.dangky tr td.input {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.dangky tr td button {
+  background: white;
+  border-radius: 6px;
+  border: 2px solid black;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.dangky tr td button:hover {
+  transform: scale(1.02);
+  border-color: blue;
+  color: blue;
+}
+
+.canhbao {
+  font-size: 11px;
+  color: red;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}

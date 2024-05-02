@@ -1,0 +1,2 @@
+<input action="action" onclick="window.history.go(-1); return false;" type="submit" value="<- Quay về trang trước"/>
+<div class='thongbaokhongtontai'><p>Có vẻ như thứ bạn đang tìm kiếm bị sai lệch hoặc không tồn tại, vui lòng quay về trang trước</p></div>

@@ -1,0 +1,244 @@
+/*--------------- css live sreach ----------*/
+
+#livesreach-themsanphamtonkho {
+    position: absolute;
+    width: 500px;
+    z-index: 99999;
+    margin-left: 32px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#xuatlivesreach table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.tablelivesreach {
+    width: 90%;
+    min-width: 368px;
+    margin: 0 auto;
+    font-size: 14px;
+    width: inherit;
+}
+
+#xuatlivesreach table thead tr th {
+    color: #0a62c3;
+    border-bottom: 1px solid #000000;
+    font-size: 9px;
+    padding: 3px 0;
+}
+
+#xuatlivesreach table tbody tr {
+    height: 50px;
+}
+
+#xuatlivesreach table tr td {
+    color: #000000;
+    font-size: 12px;
+    padding: 3px;
+}
+
+#header-hinhsp {
+    width: 60px;
+}
+
+.tensanpham-xuatkho {
+    min-width: 320px;
+}
+
+#xuatlivesreach table tr td img {
+    width: 40px;
+    height: 40px;
+}
+
+.table-content:hover {
+    background-color: hsl(206, 93%, 75%);
+    ;
+}
+
+
+/*--------------- hết css live sreach ----------*/
+
+.quanlysp {
+    margin-left: 2rem;
+}
+
+.quanlysp h3 {
+    font-size: 30px;
+    padding-left: 150px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.quanlysp div.themsanpham {
+    border: 2px solid grey;
+    border-radius: 3px;
+    width: 120px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin: 14px 0px;
+    position: absolute;
+}
+
+.quanlysp div.themsanpham:hover {
+    text-decoration: underline;
+    background-color: #d8d4d4;
+    transform: scale(1.05);
+}
+
+div.live-search-hoadon {
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 2px solid grey;
+}
+
+div.live-search-hoadon input {
+    width: 110px;
+    height: 40px;
+    padding: 0px 5px;
+    font-size: 13px;
+    position: absolute;
+    border: none;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table thead th {
+    padding: 3px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.content-table {
+    margin: auto;
+    overflow: auto;
+    width: 1210px;
+    border-radius: 10px;
+    height: 430px;
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgb(35 0 77 / 20%);
+}
+
+.content-tieude {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.noidungchitiet {
+    width: 600px;
+}
+
+.noidungchude {
+    width: 170px;
+}
+
+tr td {
+    border-top: 1px solid hsl(0, 0%, 70%);
+    padding: 5px 12px;
+    font-size: 14px;
+    /* border-bottom: 1px solid hsl(0, 0%, 70%); */
+}
+
+tr.tieude_hienthi_sp {
+    height: 45px;
+}
+
+tr.tieude_hienthi_sp th {
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 10px;
+}
+
+td.img_hienthi_sp img {
+    padding-top: 5px;
+}
+
+td.img_hienthi_sp h4 {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+#phantrang_sp {
+    float: left;
+    padding-top: 10px;
+}
+
+a button {
+    border: 1px solid #cdcdcd;
+    font-size: 16px;
+    height: 25px;
+    cursor: pointer;
+    color: blue;
+    background: #f1f2ee;
+}
+
+a button:hover {
+    background: #a7a7a7;
+    color: white;
+}
+
+a button.trang {
+    width: 100px;
+}
+
+a button.so {
+    width: 20px;
+}
+
+.active_hienthi_sp {
+    width: 130px;
+}
+
+.active_hienthi_sp a {
+    margin-left: 5px;
+    padding: 10px 5px;
+}
+
+.active_hienthi_sp a img:hover {
+    transform: scale(1.2);
+    width: fit-content;
+}
+
+.active_hienthi_sp p {
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+.active_hienthi_sp p img:hover {
+    transform: scale(1.2);
+    width: fit-content;
+}
+
+.sreach-ngaydathang div {
+    position: absolute;
+    font-size: 14px;
+}
+
+.nguoidungbutton:hover {
+    color: white;
+    text-decoration: none;
+}
