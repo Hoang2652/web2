@@ -14,7 +14,7 @@
     <div class="form-row">
         <div class="col-md-2 mb-3">
             <label><i class="fas fa-search"></i> Tìm kiếm hóa đơn</label>
-            <input type="text" class="form-control" id="timkiem-hoadon" name="timkiem" placeholder="Nhập id hóa đơn" onkeyup="timkiemhoadon()">
+            <input type="text" class="form-control" id="timkiem-hoadon" name="timkiem" placeholder="Nhập id hoặc địa chỉ giao hàng...." onkeyup="timkiemhoadon()">
         </div>
         <div class="col-md-8 form-row">
             <div class="col-md-3 mb-3">

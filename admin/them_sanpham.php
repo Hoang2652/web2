@@ -137,7 +137,8 @@
 			<div class="form-row mb-3">
 				<div class="col-md-6">
 					<label for="hinhanh">Hình ảnh</label>			
-					<input class="form-control-file" type="file" name="hinhanh"/>
+					<input class="form-control-file" type="file" name="hinhanh" id="hinhanh"/>
+					<img class="mt-3 w-100" id="preview" src="#" alt="Hình ảnh" style="display: none;"/>
 				</div>
 				<div class="col-md-6">
 					<label for="idkhohang" >Ở kho hàng: </label>
@@ -268,4 +269,21 @@
 			return false;
 		}
 	}
+
+    document.getElementById('hinhanh').addEventListener('change', function(event) {
+        var input = event.target;
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            
+            reader.onload = function(e) {
+                var preview = document.getElementById('preview');
+                preview.src = e.target.result;
+                preview.style.display = 'block';
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    });
+
  </script>

@@ -26,7 +26,7 @@ if(isset($_GET['q']))
     if($_GET['trangthai']!=0)
         $sql="select * FROM hoadon WHERE idhoadon like '%".$q."%' ".$sqlExtra." AND trangthai = '".$_GET['trangthai']."' order by idhoadon DESC";
     else
-        $sql="select * FROM hoadon WHERE idhoadon like '%".$q."%' ".$sqlExtra." order by idhoadon DESC";
+        $sql="select * FROM hoadon WHERE idhoadon like '%".$q."%'  OR  diachi like '%".$q."%' ".$sqlExtra." order by idhoadon DESC";
         
     $result = mysqli_query($link,$sql);
     if(mysqli_num_rows($result)!=0){   
